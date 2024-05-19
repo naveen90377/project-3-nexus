@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer div#social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    width: 100px;
+    padding: 10px;
+    background-color: #4facfe;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #00f2fe;
+}
